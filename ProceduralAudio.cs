@@ -1,3 +1,10 @@
+// By Benjamin Outram
+
+// attach script to a GameObject that has an AudioSource on it.
+
+// adjust the public variables to experiment.
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +17,7 @@ public class ProceduralAudio : MonoBehaviour
 
 
     [Range(0f, 1f)]
-    public float noiseRatio;
+    public float noiseRatio = 0.5f;
 
     //for noise part
     [Range(-1f, 1f)]
